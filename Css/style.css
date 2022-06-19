@@ -16,7 +16,7 @@ body {
 }
 
 .grid-item {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 167, 22);
@@ -42,7 +42,7 @@ body {
 }
 
 header {
-    background-color: rgba(56, 166, 222, 0.891);
+    background-image: linear-gradient(to top ,black,blue);
 }
 
 .navbar {
