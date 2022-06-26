@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Compu Space</title>
     <link rel="icon" href="./img/CompuSpace.png">
     <link rel="stylesheet" href="./Css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <div class="grid_container_main">
@@ -11,6 +13,7 @@
         <img class="logo" src="./img/CompuSpace.png" alt="logo">
     <div class="grid_container_hijo">
     <nav class="navbar">
+        
     <ul class="horizontal">
         <li><a href="./index.html"> Home </a></li>
         <li><a href="./pages/case.html"> Cases </a>
@@ -34,11 +37,91 @@
 </div>
 </header>
 </div>
-<hr>
-<section>
-    <div>
+<!--=======================================-->
+<!-- SLIDER DE IMAGENES -->
+<!--=======================================-->
 
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./img/cases/full-tower/full-3.jpg" class="d-block w-50" alt="groot">
+      </div>
+  
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/fan-cooler/fan-cooler-3.jpg" class="d-block w-49" alt="Pennywise">
+      </div>
+  
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/notebooks/notebook-2.jpg" class="d-block w-45" alt="thanos">
+      </div>
+  
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/cpu-cooler/cpu-cooler-2.jpg" class="d-block w-50" alt="ironspider">
+      </div>
     </div>
-</section>
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!--=======================================-->
+<!-- SERVICIOS -->
+<!--=======================================-->
+
+<section class="container-fluid">
+    <div class="row w-75 mx-auto  servicio-fila">
+      <div class="col-sm d-flex my-5 icono-wrap">
+        <img src="./img/psu/psu-2.jpg" alt="Demon Slayer" width="300" height="200">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">PSU EVEA</h3>
+          <p class="px-4">Lo que necesita tu pc</p>
+        </div>
+      </div>
+      <div class="col-sm d-flex my-5 icono-wrap">
+        <img src="./img/cases/mini-tower/mini-3.jpeg" alt="Demon Slayer" width="300" height="200">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Mini torre</h3>
+          <p class="px-4">Idea para una pc pequeña en componentes, y fuerte en resistencia</p>
+        </div>
+      </div>
+      <div class="col-sm d-flex my-5 icono-wrap">
+        <img src="./img/fan-cooler/fan-cooler-1.jpg" alt="Demon Slayer" width="300" height="200">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Fan-Cooler</h3>
+          <p class="px-4">Fan-cooler para que tu pc este hecha un hielo :p</p>
+        </div>
+      </div>
+      <div class="col-sm d-flex my-5 icono-wrap">
+        <img src="./img/notebooks/notebook-3.jpg" alt="Demon Slayer" width="300" height="200">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Notebook</h3>
+          <p class="px-4">Excelente Notebook Gamer para juegos de ultima generacion</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--=======================================-->
+                <!-- FOOTER -->
+<!--=======================================-->
+<footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3 pt-3">CompuSpace. &copy; Todos Los Derechos Reservados 2022</p>
+    <div id="iconos">
+      <a href=""><i class="bi bi-facebook"></i></a>
+      <a href=""><i class="bi bi-instagram"></i></a>
+      <a href=""><i class="bi bi-whatsapp"></i></a>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

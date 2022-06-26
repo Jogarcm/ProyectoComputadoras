@@ -3,10 +3,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .logo {
     height: 120px;
     width: 120px;
+}
+
+/*====================Slider De Imagenes=============*/
+
+.carousel-inner {
+    max-height: 49rem;
+    max-width: 49rem;
 }
 
 body {
@@ -50,6 +57,11 @@ header {
     margin: auto;
     font-size: 20px;
     margin-top: -56px;
+}
+
+.navbar button {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .horizontal {
@@ -131,7 +143,24 @@ input, textarea {
 }
 
 
+/*=========== FOOTER =========*/
 
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+
+}
+
+footer p {
+    color:#f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
 
 
 
